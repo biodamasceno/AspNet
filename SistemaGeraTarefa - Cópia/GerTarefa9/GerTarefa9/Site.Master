@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GerTarefa9.Site" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <title>TaskSystem - Gerenciamento de Tarefas</title>
+    <asp:ContentPlaceHolder ID="cphCabec" runat="server"></asp:ContentPlaceHolder>
+</head>
+    <body>
+        <div class="container">
+            <form id="form1" runat="server">
+                <!-- Inicio do Corpo -->
+                        <div id="cabecalho" class="cabecalho">
+                            <h1>TaskSystem</h1>
+                        </div>
+                     <!-- Inicio do Corpo -->
+                    <div id="corpo" class="well">
+                        <asp:ContentPlaceHolder ID="cphCorpo" runat="server"></asp:ContentPlaceHolder>
+                    </div>   
+                    <!-- Inicio do Rodape -->   
+                    <div id="rodape" class="rodape">
+                        <asp:ContentPlaceHolder ID="cphRodape" runat="server">
+                            <p>Copyright &copy 2016 - Letter Startup</p>
+                            <asp:Label ID="lblData" runat="server" Text="Data"></asp:Label>                  
+                        </asp:ContentPlaceHolder>
+                    </div>
+            </form>
+        </div>
+        <script src="Scripts/bootstrap.min.js"></script>
+        <script src="Scripts/jquery-3.1.1.min.js"></script>
+    </body>
+
+</html>

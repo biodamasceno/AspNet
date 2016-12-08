@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TaskSystem.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head runat="server">
+    <title>TaskSystem - Gerenciamento de Tarefas</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="cphCabecalho" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container">
+        <form id="form1" runat="server">
+            <div class="cabecalho" id="cabecalho">
+                <h1>TaskSystem</h1>
+            </div>
+                       
+             <!-- Inicio do Corpo -->
+            <div class="well" id="corpo">
+                <asp:ContentPlaceHolder ID="cphCorpo" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <!-- Inicio do Rodape -->
+            <div class="rodape" id="rodape">
+                <asp:ContentPlaceHolder ID="cphRodape" runat="server">
+                    <p>Copyright &copy 2016 - Desenvolvido por Letter Startup</p>
+                    <asp:Label ID="lblData" runat="server" Text="Data"></asp:Label>
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿.rodape {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: black;
+    color: #FFF;
+    margin: auto;
+    width: 100%;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.well {
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 200px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+#gridtexto 
+{
+    width: 673px;
+    height: 380px;
+    margin-top: 5px;
+    background-color: #F3F1EB;
+    font-family: Tahoma;
+    font-size: 85%;
+}
