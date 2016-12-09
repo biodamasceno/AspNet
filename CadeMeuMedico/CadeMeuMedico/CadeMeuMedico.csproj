@@ -118,6 +118,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MedicosController.cs" />
     <Compile Include="Controllers\MensagensController.cs" />
+    <Compile Include="Controllers\TEntity.cs" />
     <Compile Include="Controllers\TesteLayoutController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
